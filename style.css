@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-items: center;
+}
+
+.button {
+    border: none;
+    background: none;
+}
+
