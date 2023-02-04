@@ -60,5 +60,60 @@
     margin: 0 10px;
 }
 
+.title-date {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+}
 
+.img-list {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.tech-used {
+    font-size: 20px;
+}
+
+.project {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+    padding-bottom: 30px;
+    padding-top: 16px;
+    border-bottom: 2px solid rgb(65, 65, 130);
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project-img {
+    width: 300px;
+}
+
+.list-techs-used {
+    margin-left: 50px;
+}
 
