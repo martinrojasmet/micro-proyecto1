@@ -31,4 +31,37 @@ sendButton.addEventListener("click", function () {
     } else {
         alert("El formulario no se pudo enviar");
     };
-})
+});
+
+const mat = document.querySelector(".mat-bars");
+let stringResult = "";
+
+const skills = {
+    "HTML": 40,
+    "CSS":20,
+    "JS": 60,
+    "Python": 65,
+    "Java": 30
+};
+
+function writeHTML() {
+    for (const key in skills) {
+        const stringStructure = ` 
+        <style>
+        #${key} {
+        width: ${skills[key]}%;
+        }
+        </style>
+        <div class='bar-and-name'>
+            <div class='bar-and-name'>
+                <h1 class='bar-name'>${key}</h1>
+                    <div class='graph-space'>
+                    <div id='${key}' class='graph'>${skills[key]}%</div>
+            </div>
+        </div>`;
+        stringResult += stringStructure;
+    };
+    mat.innerHTML = stringResult;
+};
+
+writeHTML();
