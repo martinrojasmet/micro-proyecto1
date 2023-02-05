@@ -93,6 +93,63 @@ h3 {
     font-size: 20px;
 }
 
+@media screen and (max-width: 720px) {
+    .button {
+        font-size: 15px;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 575px){ 
+    #title {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .button {
+        font-size: 12px;
+        margin: 0 4px;
+    }
+}
+
+@media screen and (max-width: 775px){ 
+    .project-title {
+        font-size: 25px;
+    }
+    .project-techtitle {
+        font-size: 25px;
+    }
+    .project-date {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px){ 
+    .tech-used{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px){ 
+    .project-title {
+        font-size: 15px;
+    }
+    .project-techtitle {
+        font-size: 15px;
+    }
+    .project-date {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px){ 
+    .button {
+        font-size: 8px;
+        margin: 0 2px;
+    }
+}
+
+/* projects */
+
 .project {
     display: flex;
     flex-direction: column;
@@ -120,6 +177,8 @@ h3 {
     margin-left: 50px;
 }
 
+/* about me*/
+
 .about-me {
     display: flex;
     flex-direction: column;
@@ -132,12 +191,6 @@ h3 {
 
 .img-me {
     width: 50%;
-}
-
-@media screen and (max-width: 500px){ 
-    .img-me {
-        width: 80%;
-    }
 }
 
 .div-me {
@@ -172,6 +225,22 @@ h3 {
     padding-top: 3px;
     color: rgb(255, 255, 255,.6);
 }
+
+@media screen and (max-width: 680px){ 
+    .img-me {
+        width: 90%;
+    }
+
+    .div-me {
+        width: 90%;
+    }
+
+    .li-me {
+        font-size: 25px;
+    }
+}
+
+/*contact me */
 
 .contact-me {
     display: flex;
@@ -318,6 +387,24 @@ h3 {
     font-weight: bolder;
 }
 
+@media screen and (max-width: 780px) {
+    .input-center {
+        width: 90%;
+    }
+    #link-wha {
+        font-size: 15px;
+    }
+    #link-ig {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #link-wha {
+        font-size: 10px;
+    }
+}
+
 /* skills */
 
 .skills {
@@ -383,6 +470,15 @@ h3 {
     display: flex;
     justify-content: center;
     border-top: 10px;
+}
+
+@media screen and (max-width:680px) {
+    .graph-expe {
+        width: 90%;
+    }
+    .tag-axis {
+        font-size: 12px;
+    }
 }
 
 /* carousel */
