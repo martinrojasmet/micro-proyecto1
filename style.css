@@ -240,6 +240,12 @@ h3 {
     }
 }
 
+@media screen and (max-width: 475px){ 
+    .li-me {
+        font-size: 18px;
+    }
+}
+
 /*contact me */
 
 .contact-me {
