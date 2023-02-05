@@ -381,9 +381,9 @@ h3 {
 
 .slider {
 width: 100%;
-height: 90vh;
+height: 86vh;
 position: relative;
-/* overflow: hidden; */
+overflow: hidden;
 }
 
 .slide {
@@ -402,14 +402,18 @@ object-fit: cover;
 .btn {
 position: absolute;
 width: 40px;
-height: 40px;
+height: 10vh;
 padding: 10px;
 border: none;
-border-radius: 50%;
 z-index: 10px;
 cursor: pointer;
-background-color: #fff;
+background-color: rgba(255, 250, 222, 0.6);
 font-size: 18px;
+color: rgb(65, 65, 130);
+}
+
+.btn:hover {
+    background-color: rgb(255, 250, 222);
 }
 
 .btn:active {
