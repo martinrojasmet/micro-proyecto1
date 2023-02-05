@@ -120,14 +120,21 @@ h3 {
 .about-me {
     display: flex;
     flex-direction: column;
-    background: red;
+    background: #918CB8;
     align-items: center;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .img-me {
     width: 50%;
+}
+
+@media screen and (max-width: 500px){ 
+    .img-me {
+        width: 80%;
+    }
 }
 
 .div-me {
@@ -153,3 +160,150 @@ h3 {
     font-size: 25px;
     padding-top: 3px;
 }
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.input-center {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    height: 270px;
+    width: 65%;
+    border: 5px solid rgba(65, 65, 130, 1);
+}
+
+.name-email {
+    display: flex;
+    height: 40%;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-label {
+    position: relative;
+    left: -25%;
+    top: -5px;
+}
+
+/* .input {
+    width: 80%;
+    background-color: transparent;
+    border: 3px solid  rgba(65, 65, 130, 1);
+    border-radius: 10px;
+    height: 40px;
+} */
+
+.input {
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid rgba(65, 65, 130, 1);
+    outline: none;
+}
+
+#input1 {
+    width: 50%;
+}
+
+#input2 {
+    width: 50%;
+}
+
+#input3 {
+    height: 40%;
+}
+
+.msg-label {
+    left: -30%;
+}
+
+.title-contact {
+    padding-bottom: 20px;
+}
+
+.button-center {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#send-button {
+    border: none;
+    background: rgba(65, 65, 130, 1);
+    height: 30px;
+    width: 15%;
+    color: white;
+}
+
+#send-button:hover {
+    border: none;
+    background: rgba(65, 65, 130, .7);
+    height: 30px;
+    width: 15%;
+    color: white;
+}
+
+.personal-info {
+    height: 120px;
+    padding-top: 20px;
+    width: 50%;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "mail github"
+    "ig whats";
+}
+
+#mail-div {
+    grid-area: mail;
+}
+
+#github-div {
+    grid-area: github;
+}
+
+#ig-div {
+    grid-area: ig;
+}
+
+#whats-div {
+    grid-area: whats;
+}
+
+.div-pers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-pers:hover {
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+.links {
+    color: rgba(65, 65, 130, 1);
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.links:hover {
+    font-weight: bolder;
+}
+
+/* skills */
